@@ -1,0 +1,92 @@
+
+header {
+    height: 60px;
+}
+
+nav {    
+    background-color: yellow;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.menu__container {
+    margin-top: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+nav a:hover {
+    background-color: rgb(231, 231, 228);
+    text-decoration: underline;
+}
+
+.logo  {
+    background-color: rgb(0, 0, 0);
+    height: 158px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+
+}
+
+.sobre {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 700px;
+    margin-top: 1px;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fotos__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-wrap: wrap;
+    
+}
+
+.fotos__container > div {
+    background-color: yellow;
+    margin: 3px 5px;
+    
+}
+
+.fotos__container > div > p {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #E1DAA6;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    text-align: center;
+}
+
+.hegon {
+    text-decoration: underline;
+}

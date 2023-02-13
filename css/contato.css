@@ -1,0 +1,21 @@
+body {
+    height: 150px;
+}
+
+.map__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.mapa__contanier {
+    width: 100%;
+    height: 350px;
+    margin-top: 1px;
+
+}
+
+.mapa__contanier > iframe {
+    width: 100%;
+    height: 100%;
+}

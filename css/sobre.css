@@ -1,0 +1,35 @@
+body {
+    height: 300px;
+
+}
+
+.sobre__container {
+    height: 745px;
+}
+
+.fachada__container {
+    width: 100%;
+    margin: 1px;
+
+}
+
+.fachada__container > img {
+    height: 400px;
+    float: left;
+    display: table-cell;
+    margin-right: 3px;
+    margin-top: 16px;
+}
+
+.sobre__chaveiro {
+    display: table;
+
+}
+
+.texto{ 
+    display: table-cell;
+    float: left;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
