@@ -37,6 +37,8 @@ nav a:hover {
     justify-content: center;
 }
 
+
+
 img {
     height: 150px;
 
@@ -48,6 +50,9 @@ img {
     height: 700px;
     margin-top: 1px;
     align-items: center;
+    white-space: nowrap;
+    display: contents;
+    
 }
 
 h1 {
