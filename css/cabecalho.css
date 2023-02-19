@@ -52,7 +52,12 @@ img {
     align-items: center;
     white-space: nowrap;
     display: contents;
-    
+
+}
+
+.fotos__container > div > img {
+    width: 180px;
+    height: 120px;
 }
 
 h1 {
