@@ -1,5 +1,85 @@
 body {
-    margin: 0;
     background-color: white;
     height: 700px;
+    margin: 0;
+}
+
+.sobrehome {
+    align-items: center;
+    background-color: white;
+    display: contents;
+    font-family: 'Courier New', Courier, monospace;
+    height: 700px;
+    margin-top: 1px;
+    white-space: nowrap;
+}
+
+.fotos__container > div > img {
+    height: 120px;
+    width: 180px;
+}
+
+h1 {
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.fotos__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;      
+}
+
+.fotos__container > div {
+    background-color: yellow;
+    margin: 3px 5px;
+    
+}
+
+.fotos__container > div > p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+
+}
+
+.whats {
+    background-color: #25d366;
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px #888;
+    bottom: 40px;
+    color: #fff;
+    font-size: 30px;
+    height: 38px;
+    position: fixed;
+    right: 4px;
+    text-align: center;
+    width: 35px;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #E1DAA6;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    text-align: center;
+}
+
+.hegon {
+    text-decoration: underline;
 }

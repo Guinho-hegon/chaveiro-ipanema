@@ -6,10 +6,10 @@ header {
 nav {    
     background-color: yellow;
     height: 60px;
-    width: 100%;
-    text-align: center;
     position: fixed;
     top: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .menu__container {
@@ -18,11 +18,10 @@ nav {
 
 a {
     color: black;
-    text-decoration: none;
     font-size: 25px;
-    margin-left: 10px;
     font-family: 'Inconsolata', monospace;
-    
+    margin-left: 10px;
+    text-decoration: none;    
 }
 
 nav a:hover {
@@ -32,91 +31,7 @@ nav a:hover {
 
 .logo  {
     background-color: rgb(0, 0, 0);
+    display: flex;
     height: 158px;
-    display: flex;
     justify-content: center;
-}
-
-
-
-img {
-    height: 150px;
-
-}
-
-.sobre {
-    background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    height: 700px;
-    margin-top: 1px;
-    align-items: center;
-    white-space: nowrap;
-    display: contents;
-
-}
-
-.fotos__container > div > img {
-    width: 180px;
-    height: 120px;
-}
-
-h1 {
-    color: rgb(15, 15, 15);
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    font-weight: lighter;
-}
-
-.fotos__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    flex-wrap: wrap;
-    gap: 1px;
-    
-}
-
-.fotos__container > div {
-    background-color: yellow;
-    margin: 3px 5px;
-    
-}
-
-.fotos__container > div > p {
-    color: black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.whats {
-    position: fixed;
-    color: #fff;
-    width: 35px;
-    height: 38px;
-    bottom: 40px;
-    right: 4px;
-    background-color: #25d366;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
-}
-
-.fa-whatsapp {
-    margin-top: 5px;
-}
-
-footer {
-    background-color: #E1DAA6;
-    font-family: 'Courier New', Courier, monospace;
-    height: 150px;
-    text-align: center;
-}
-
-.hegon {
-    text-decoration: underline;
 }
