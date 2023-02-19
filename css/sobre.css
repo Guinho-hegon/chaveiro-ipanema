@@ -1,22 +1,24 @@
 body {
-    height: 800px;
+    height: 900px;
 
 }
 
 .sobre__container {
-    height: 700px;
+    height: 870px;
     display: flex;
+    text-align: center;
 }
 
 .sobre__container > div > img {
     height: 600px;
-    width: 100%;
+    width: 80%;
     margin-right: 3px;
     margin-top: 16px;
 }
 
 .sobre__container > div > p {
     font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
